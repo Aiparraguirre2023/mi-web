@@ -86,8 +86,9 @@ main {
   }
   
   .box-left p {
-    max-width: 400px; 
+    max-width: 600px; 
     font-size: 30px; 
+    margin-bottom: 10px;
   }
 
   .box-left a {
