@@ -101,5 +101,36 @@
         
     }
   }
+
+  @media screen and (max-width: 470px) {
+    header {
+        height: auto;
+        padding: 0px 0px;
+        max-width: 100%;
+        margin: 0%;
+    }
+    .navbar-list {
+        margin-right: 70px;
+    }
+    .box-left {
+        padding: 0px 40px;
+        margin-left: 0px;
+        margin-right: 70px;
+    }
+
+    .nav_link {
+        width: 60%;
+        background-color:initial ;
+        text-shadow: rgb(255, 255, 255) 1px 0 0px;
+
+    }
+    .cart-icon{
+        display: none;
+    }
+    .box-left a {
+        margin-bottom: 18px;
+    }
+  }
+
   
   
