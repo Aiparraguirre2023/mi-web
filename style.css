@@ -64,11 +64,9 @@ a:hover {
 main {
     background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  
     background: linear-gradient(to right, #d6ae7b, #eacda3); 
-    min-height: 300vh;
+    min-height: 400vh;
     width: 100%;
-    
-
-}
+  }
 
 /* portada */
 
@@ -166,6 +164,7 @@ main {
   .seccion-cards {
     display: flex;
     flex-direction: column;
+    margin-bottom: 80px;
   }
   .seccion-cards h1{
     text-align: center;
@@ -182,7 +181,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-  }
+    }
 
   .container .card {
     width: 330px;
