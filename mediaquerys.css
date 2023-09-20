@@ -1,207 +1,216 @@
-
 @media screen and (max-width: 1110px) {
-    header {
-        padding: 0px 20px;
-    }
-    
-    .navbar {
-        gap: 10px;
-    }
-    
-    .navbar-list {
-        gap: 10px;
-    }
-    
-    .box-left h1 {
-        font-size: 20px;
-    }
-    
-    .box-left h5 {
-        font-size: 16px;
-    }
-    
-    .box-left p {
-        font-size: 18px;
-        max-width: 90%;
-    }
-    
-    .box-left a {
-        font-size: 16px;
-        padding: 8px 16px;
-    }
-    
-    #portada {
-        padding: 10px;
-       
-    }
-    
-    .box-right {
-        margin: 10px;
-    }
-    #info p {
-        font-size: 25px;
-        max-width: 80%;
-        line-height: 1.5;
-    }
-    .container {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-    .container .card {
-        width: 330px;
-        height: 400px;
-        border-radius: 8px;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-        margin: 20px;
-        text-align: center;
-        transition: all 0.25s;
-    }
-    .container .card img{
-        width: 280px;
-        height: 180px;
-    }
-    .container .card p {
-        padding: 0 0.8rem;
-        font-size: 16px;
-        margin-bottom: 15px;
-        line-height: 97%;
-      }
-    
+  header {
+    padding: 0px 20px;
+  }
+
+  .navbar {
+    gap: 10px;
+  }
+
+  .navbar-list {
+    gap: 10px;
+  }
+
+  .box-left h1 {
+    font-size: 20px;
+  }
+
+  .box-left h5 {
+    font-size: 16px;
+  }
+
+  .box-left p {
+    font-size: 18px;
+    max-width: 90%;
+  }
+
+  .box-left a {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  #portada {
+    padding: 10px;
+  }
+
+  .box-right {
+    margin: 10px;
+  }
+  #info p {
+    font-size: 25px;
+    max-width: 80%;
+    line-height: 1.5;
+  }
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .container .card {
+    width: 330px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+  }
+  .container .card img {
+    width: 280px;
+    height: 180px;
+  }
+  .container .card p {
+    padding: 0 0.8rem;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 97%;
+  }
+  
 }
-  
-  @media screen and (max-width: 768px) {
-    header {
-        height: 60px;
-        padding: 10px 10px;
-        max-width: 100%;
-    }
-    
-    .navbar {
-        flex-direction: row;
-        gap: 5px;
-    }
-    
-    .navbar-list {
-        flex-direction: row;
-        gap: 5px;
-    }
-    
-    .box-left h1 {
-        font-size: 25px;
-    }
-    
-    .box-left h5 {
-        font-size: 14px;
-    }
-    
-    .box-left p {
-        font-size: 20px;
-    }
-    
-    .box-left a {
-        font-size: 14px;
-        padding: 8px 12px;
-        margin-top: 20px;
-    }
-    
-    #portada {
-        flex-direction: column;
-        padding: 5px;
-        justify-content: center;
-        
-    }
-    
-    .box-right {
-        display: none;
-    }
-    #info {
-        margin-top: 20px;
-    }
-    #info p {
-        font-size: 20px;
-        max-width: 80%;
-        line-height: 1.5;
-    }
-    .seccion-cards {
-        margin-bottom: 20px;
-    }
-    .container .card {
-        width: 330px;
-        height: 300px;
-        border-radius: 8px;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-        margin: 20px;
-        text-align: center;
-        transition: all 0.25s;
-    }
-    .container .card p {
-        margin-bottom: 15px;
-        white-space: nowrap;       
-        overflow: hidden;          
-        text-overflow: ellipsis;
-      }
-      .container .card img{
-        width: 200px;
-        height: 160px;
-    }
-    
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 60px;
+    padding: 10px 10px;
+    max-width: 100%;
   }
 
-  @media screen and (max-width: 555px) {
-    header {
-        height: auto;
-        padding: 0px 0px;
-        max-width: 100%;
-        margin: 0%;
-    }
-    .navbar-list {
-        margin-right: 70px;
-    }
-    .box-left {
-        padding: 0px 40px;
-        margin-left: 0px;
-        margin-right: 70px;
-    }
-
-    .nav_link {
-        width: 60%;
-        background-color:initial ;
-        text-shadow: rgb(255, 255, 255) 1px 0 0px;
-
-    }
-    .cart-icon{
-        display: none;
-    }
-    .box-left a {
-        margin-bottom: 18px;
-    }
-    .container .card img{
-        width: 120px;
-        height: 120px;
-    }
-    .container .card {
-        width: 300px;
-        height: 240px;
-        border-radius: 8px;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-        margin: 20px;
-        text-align: center;
-        transition: all 0.25s;
-    }
-    .container .card h4 {
-        font-weight: 600;
-        margin-top: 10px;
-        margin-bottom: 5px;
-        font-size: 15px;
-    }
-    
-    
-    
+  .navbar {
+    flex-direction: row;
+    gap: 5px;
   }
-  
 
-  
-  
+  .navbar-list {
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .box-left h1 {
+    font-size: 25px;
+  }
+
+  .box-left h5 {
+    font-size: 14px;
+  }
+
+  .box-left p {
+    font-size: 20px;
+  }
+
+  .box-left a {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-top: 20px;
+  }
+
+  #portada {
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+  }
+
+  .box-right {
+    display: none;
+  }
+  #info {
+    margin-top: 20px;
+  }
+  #info p {
+    font-size: 20px;
+    max-width: 80%;
+    line-height: 1.5;
+  }
+  .seccion-cards {
+    margin-bottom: 20px;
+  }
+  .container .card {
+    width: 330px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+  }
+  .container .card p {
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .container .card img {
+    width: 200px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  header {
+    height: auto;
+    padding: 0px 0px;
+    max-width: 100%;
+    margin: 0%;
+  }
+  header img {
+    margin-left: 20px;
+  }
+  .navbar .navbar-list {
+    background: rgb(248, 225, 197);
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    display: none;
+    padding-left: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 2px rgba(248, 177, 62, 0.2);
+  }
+  .navbar i {
+    display: block;
+    margin-right: 20px;
+    color: rgb(250, 205, 138);
+  }
+  #toggle-menu:checked ~ .navbar-list {
+    display: flex;
+  }
+  .nav_link a {
+    color: rgb(159, 45, 11);
+  }
+  .nav_link a:hover {
+    color: rgb(201, 109, 84);
+  }
+  .box-left {
+    padding: 0px 40px;
+    margin-left: 0px;
+    margin-right: 70px;
+  }
+  .cart-icon {
+    display: none;
+  }
+  .box-left a {
+    margin-bottom: 18px;
+  }
+  .container .card img {
+    width: 120px;
+    height: 120px;
+  }
+  .container .card {
+    width: 300px;
+    height: 240px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+  }
+  .container .card h4 {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+}
